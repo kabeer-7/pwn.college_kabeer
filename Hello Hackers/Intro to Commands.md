@@ -4,7 +4,7 @@
 We learn to invoke a command. We invoke the hello command to get the required flag. 
 
 ### Solve
-**Flag:** pwn.college{ctwmBT0uyQe2gnBELNqXqmXgvq2.QX3YjM1wSN2gjNzEzW}
+**Flag:** `pwn.college{ctwmBT0uyQe2gnBELNqXqmXgvq2.QX3YjM1wSN2gjNzEzW}`
 
 We execute the hello command. We are expected to get the prompt of "Hello" or "Hello, World" but we get our flag when we execute the command. 
 
