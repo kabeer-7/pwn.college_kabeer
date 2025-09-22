@@ -4,7 +4,7 @@
 The challenge asks us to invoke and execute the 'echo' and 'hello' commands with the argument of 'hackers'. 
 
 ### Solve
-**Flag:** pwn.college{wYRQ8xOmkgJw_NAZersbJBieOy4.QX4YjM1wSN2gjNzEzW}
+**Flag:** `pwn.college{wYRQ8xOmkgJw_NAZersbJBieOy4.QX4YjM1wSN2gjNzEzW}`
 
 We invoke the hello command with the argument of 'hackers'. The hello command with the argument hackers satisfies the parameters given and hence we obtain the required flag. 
 
