@@ -1,12 +1,12 @@
 # Pondering Paths
 
 ## Position thy self
-The challenge requires us to execute the /challenge/run
+The challenge requires us to execute the /challenge/run from a specific path. 
 
 ### Solve
 **Flag:** `pwn.college{cslyXbNRJaL1XJWwnJ3Oh43xHx4.QX2QTN0wSN2gjNzEzW}`
 
-type in your solve and your thought process behind solving the challenge. Include as much as info as possible. Use triple ticks for any bash commands and output you type on the terminal.
+I input /challenge/run which is incorrect as I do not know the path of the /challenge/run program. The command line tells us that it's incorrect and tells us where the program is located. We need to use 'cd' to change the directory. I enter cd /usr/share/doc. This shifts the current path the shell is at. We will then be able to run the given /challenge/run program and obtain the required flag. 
 
 ```bash
 hacker@paths~position-thy-self:~$ /challenge/run
@@ -22,7 +22,7 @@ pwn.college{cslyXbNRJaL1XJWwnJ3Oh43xHx4.QX2QTN0wSN2gjNzEzW}
 ```
 
 ### New Learnings
-Brief note on what you learned from the challenge
+I learnt how to run a given program using a specific path given. I learnt how to use cd to change the directory to the specific path and run the program. 
 
 ### References 
-Add any references or videos you used while solving the challenge.
+None.
