@@ -1,12 +1,12 @@
 # Pondering Paths
 
 ## Position Elsewhere
-Add challenge description here
+The challenge requires us to execute the /challenge/run from a specific path.
 
 ### Solve
 **Flag:** `pwn.college{U-a41vZAyfzSYs2Dfko7AFvDFND.QX3QTN0wSN2gjNzEzW}`
 
-type in your solve and your thought process behind solving the challenge. Include as much as info as possible. Use triple ticks for any bash commands and output you type on the terminal.
+This challenge is pretty much the same as the previous challenge i.e, position thy self except the directory. I input /challenge/run which is incorrect as I do not know the path of the /challenge/run program. The command line tells us that it's incorrect and tells us where the program is located. We need to use 'cd' to change the directory. I enter cd /etc/apt/sources.list.d. This shifts the current path the shell is at. We will then be able to run the given /challenge/run program and obtain the required flag.
 
 ```bash
 hacker@paths~position-elsewhere:~$ /challenge/run
@@ -22,7 +22,7 @@ pwn.college{U-a41vZAyfzSYs2Dfko7AFvDFND.QX3QTN0wSN2gjNzEzW}
 ```
 
 ### New Learnings
-Brief note on what you learned from the challenge
+Learnt nothing new on top of the previous challenge. 
 
 ### References 
-Add any references or videos you used while solving the challenge.
+None. 
