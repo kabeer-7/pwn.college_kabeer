@@ -16,7 +16,7 @@ pwn.college{kHRnQlyI7VBudc1tvLYod9OLUo4.QX4cTO0wSN2gjNzEzW}
 ```
 
 ### New Learnings
-The filesystem starts at / and then several directories, files, programs and flags are filed after this. We learn about all these components. Directories function just as folders which contain subdirectories and files. Files contain content like source code and programs refer to the source code. 
+The filesystem starts at / and then several directories, files, programs and flags are filed after this. We learn about all these components. Directories function just as folders which contain subdirectories and files. Files contain content like source code and programs refer to the source code. I also learnt how to run a given program. 
 
 ### References 
 Referred to AI to understand terms.
