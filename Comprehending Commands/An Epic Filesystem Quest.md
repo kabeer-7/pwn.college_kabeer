@@ -1,12 +1,12 @@
 # Comprehending Commands
 
 ## An Epic Filesystem Quest
-Add challenge description here
+We are given a scavenger hunt which we have to solve using hints given by the system using cd, ls and cat. The first clue is to use / as our working directory and find a file named clue or something similar using ls, we are then supposed to use the clues till we get the flag. 
 
 ### Solve
 **Flag:** `pwn.college{845yaut8BfJlaiu7Fqcrjizwljd.QX5IDO0wSN2gjNzEzW}`
 
-type in your solve and your thought process behind solving the challenge. Include as much as info as possible. Use triple ticks for any bash commands and output you type on the terminal.
+I initally followed the hints that was to use / as working directory and then execute ls to see the file named LEAD. On reading LEAD using cat, I got a path for the next clue and it said that we can't cd into the directory. Hence, i used la to check the contents of the directory and then used cat to read it to obtain the next clue. The clue gave another path for the next clue which was again trapped hence i used the same process. The next clue gave another path and said that the next clue was delayed i.e, we have to use cd. So, i cd'ed into the directory and read the file which was close to being a clue, this gave the next clue. This clue said that the next clue was hidden and hence I cd'ed into the directory and then executed ls -a to see all files starting with a '.'. I, then, used cat to read the next clue. I had to use these 3 processes over again a few more times before I found the final clue and eventually the flag. 
 
 ```bash
 hacker@commands~an-epic-filesystem-quest:~$ cd /
@@ -101,7 +101,7 @@ It is: pwn.college{845yaut8BfJlaiu7Fqcrjizwljd.QX5IDO0wSN2gjNzEzW}
 ```
 
 ### New Learnings
-Brief note on what you learned from the challenge
+I learnt how to apply the 3 commands in this game using the hints given to obtain what is asked of us. 
 
 ### References 
-Add any references or videos you used while solving the challenge.
+None. 
