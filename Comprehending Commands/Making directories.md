@@ -4,7 +4,7 @@
 we are required to create a /tmp/pwn directory and make a file college in it. We then run /challenge/run to check our solution and give us the flag. 
 
 ### Solve
-**Flag:** `pwn.college{helloworld}`
+**Flag:** `pwn.college{cgc16U80dlo3xMJyMhTDO0o1OhE.QXxMDO0wSN2gjNzEzW}`
 
 I created the tmp directory in the home directory and changed the current working directory to it using cd. I, then, created the pwn directory in tmp and changed the directory to it using cd. Then, I created the file college using the touch command and then run the /challenge/run to check the program and give us the flag.                   
 
