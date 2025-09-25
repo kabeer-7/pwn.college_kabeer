@@ -6,7 +6,7 @@ We are supposed to go through the man page for man and find the appropriate comm
 ### Solve
 **Flag:** `pwn.college{M3HxDDzaMAwTv8BRo_Ilqum-0td.QX2EDO0wSN2gjNzEzW}`
 
-On going through the man page for man, I found the -k argument (searches for keywords) which seemed appropriate to search for the name of the man page required. On using 'man -k flag' (i used flag as it was highly likely that the man page would contain info related to flag), a man page for xzawvolqum was visible which showed that it prints the flag. On going through this man page, the argument --xzawvo NUM was visible which on giving the number 38- gave the flag.   
+On going through the man page for man, I found the -k argument (searches for keywords) which seemed appropriate to search for the name of the man page required. On using 'man -k flag' (i used flag as it was highly likely that the man page would contain info related to flag), a man page for xzawvolqum was visible which showed that it prints the flag. On going through this man page, the argument --xzawvo NUM was visible which on giving the number 380 gave the flag.   
 ```bash
 hacker@man~searching-for-manuals:~$ man man
 hacker@man~searching-for-manuals:~$ man -k flag
