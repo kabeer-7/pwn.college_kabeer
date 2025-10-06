@@ -1,7 +1,7 @@
 # Processes and jobs
 
 ## Backgrounding processes
-Add challenge description here
+We are supposed suspend a process and then run it's copy while another one runs in the background.
 
 ### Solve
 **Flag:** `pwn.college{stUVrtSQciUXC5sNnaRzuxmRDmV.QX3QDO0wSN2gjNzEzW}`
