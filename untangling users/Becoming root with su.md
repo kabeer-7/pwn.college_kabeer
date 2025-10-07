@@ -1,4 +1,4 @@
-# Untanginling users 
+# Untangling users 
 
 ## Becoming root with su
 We are supposed to become root with su and enter the given root password while doing so. 
