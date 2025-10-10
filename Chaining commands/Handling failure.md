@@ -12,7 +12,7 @@ Nice chaining! Flag: pwn.college{cAPcwdpeUiO-U0PbSwmTWzGW5DC.01M0MDOxwSN2gjNzEzW
 ```
 
 ### New Learnings
-Brief note on what you learned from the challenge
+Learnt about || operator which is the opposite of the && operator and runs only if the first command/process fails or exits with a non-zero code. 
 
 ### References 
-Add any references or videos you used while solving the challenge.
+None
