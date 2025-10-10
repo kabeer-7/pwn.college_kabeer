@@ -1,12 +1,12 @@
 # Chaining commands
 
 ## Executable shell scripts
-Add challenge description here
+We are supposed to invoke /challenge/solve using shell script, and then run it without explicitly, invoking bash.
 
 ### Solve
 **Flag:** `pwn.college{Uvo2GbBb97uDgfJ_nxl09lSS2bg.QX0cjM1wSN2gjNzEzW}`
 
-type in your solve and your thought process behind solving the challenge. Include as much as info as possible. Use triple ticks for any bash commands and output you type on the terminal.
+I used echo to create a self script which invokes the program and change its permissions so that it could be executed without root or bash. I then simply entered the path of the Shell script and hence executed the program which gave me the flag.
 
 ```bash
 hacker@chaining~executable-shell-scripts:~$ echo /challenge/solve > x.sh
@@ -17,7 +17,7 @@ pwn.college{Uvo2GbBb97uDgfJ_nxl09lSS2bg.QX0cjM1wSN2gjNzEzW}
 ```
 
 ### New Learnings
-Brief note on what you learned from the challenge
+Learnt how to execute shell scripts without the use of bash by changing the permissions of the shell script. 
 
 ### References 
-Add any references or videos you used while solving the challenge.
+None. 
